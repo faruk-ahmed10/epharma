@@ -1,0 +1,99 @@
+/*!
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@import "../../../../Static/Scss/variables";
+
+.sidebar-wrapper {
+  width: 21.5rem;
+  background: $white;
+  position: fixed;
+  top: $topBarHeight + 0.1rem;
+  bottom: 0;
+  z-index: 1000;
+  overflow: auto;
+  border-right: 1px solid #e0e0e0;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+
+  &__mainNavbar {
+    padding: 2rem 0;
+
+    > ul > {
+      li {
+        padding-right: 2rem;
+        margin-bottom: 0.5rem;
+        cursor: default !important;
+
+        &:hover > a {
+          background-color: $lightMonstoneBlue;
+          border-top-right-radius: 5rem;
+          border-bottom-right-radius: 5rem;
+        }
+
+        &.active > {
+          a {
+            border-top-right-radius: 5rem;
+            border-bottom-right-radius: 5rem;
+            background-color: $primary;
+            color: $white;
+          }
+
+          .subMenu {
+            padding-left: 3.6rem;
+            margin-top: 1rem;
+
+            li {
+              margin-bottom: 0;
+
+              &.activeLink a {
+                color: $primary;
+              }
+
+              a {
+                font-size: 1.4rem;
+                padding: 6px 0px;
+                display: block;
+                color: $textColor;
+                cursor: default !important;
+              }
+
+              &:hover {
+                a {
+                  color: $primary;
+                }
+              }
+            }
+          }
+        }
+
+        > a {
+          color: $textColor;
+          font-size: 1.6rem;
+          padding: 1.5rem 0 1.5rem 1.5rem;
+          display: flex;
+          align-items: center;
+          line-height: 0;
+        }
+      }
+    }
+  }
+
+  &__icon {
+    padding-right: 1.5rem;
+
+    svg {
+      font-size: 2rem;
+    }
+  }
+
+  &__menu-text {
+    font-family: $mulishRegular;
+  }
+}

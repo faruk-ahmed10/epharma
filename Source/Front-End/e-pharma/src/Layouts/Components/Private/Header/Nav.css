@@ -1,0 +1,71 @@
+/*
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@font-face {
+  font-family: "mulish-Bold";
+  src: url("../Fonts/Mulish-Bold.ttf");
+}
+@font-face {
+  font-family: "mulish-Semibold";
+  src: url("../Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+  font-family: "mulish-Medium";
+  src: url("../Fonts/Mulish-Medium.ttf");
+}
+@font-face {
+  font-family: "mulish-Regular";
+  src: url("../Fonts/Mulish-Regular.ttf");
+}
+@font-face {
+  font-family: "mulish-Bold";
+  src: url("../Fonts/Mulish-Bold.ttf");
+}
+@font-face {
+  font-family: "mulish-Semibold";
+  src: url("../Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+  font-family: "mulish-Medium";
+  src: url("../Fonts/Mulish-Medium.ttf");
+}
+@font-face {
+  font-family: "mulish-Regular";
+  src: url("../Fonts/Mulish-Regular.ttf");
+}
+.nav ul li {
+  display: inline-block;
+  padding: 0rem 3rem;
+}
+.nav a {
+  color: #111111;
+  font-family: "mulish-Medium", sans-serif;
+  font-size: 1.6rem;
+  position: relative;
+}
+.nav a:after {
+  content: "";
+  position: absolute;
+  height: 0.5rem;
+  background: #17c3a5;
+  top: -3.3rem;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+}
+.nav a:hover {
+  color: #17c3a5;
+}
+.nav a:hover:after {
+  width: 100%;
+  opacity: 1;
+  transition: 0.7s;
+}
+
+/*# sourceMappingURL=Nav.css.map */

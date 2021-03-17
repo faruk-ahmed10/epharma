@@ -1,0 +1,152 @@
+/*
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@font-face {
+  font-family: "mulish-Bold";
+  src: url("../Fonts/Mulish-Bold.ttf");
+}
+@font-face {
+  font-family: "mulish-Semibold";
+  src: url("../Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+  font-family: "mulish-Medium";
+  src: url("../Fonts/Mulish-Medium.ttf");
+}
+@font-face {
+  font-family: "mulish-Regular";
+  src: url("../Fonts/Mulish-Regular.ttf");
+}
+.mr-5 {
+  margin-right: 0.5rem !important;
+}
+
+.mr-10 {
+  margin-right: 1rem;
+}
+
+.mt-25 {
+  margin-right: 2.5rem;
+}
+
+select,
+input[type=text],
+input[type=email],
+input[type=time],
+input[type=password],
+input[type=file] {
+  background-color: #17c3a5;
+  border: none;
+  padding: 5px 10px;
+  min-width: px;
+  width: 100%;
+  height: 40px;
+  border-radius: 5px;
+  border: 1px solid #e9ecef;
+  background: transparent;
+  box-shadow: 0px 1px 2px 0px #0000001a, 0px 1px 1px 0px #00000008;
+  margin-bottom: 10px;
+  display: block;
+}
+
+textarea {
+  width: 100%;
+  min-height: 12rem;
+  padding: 1rem;
+  border: 0.1rem solid #ddd;
+  border-radius: 4px;
+  border: 0.1rem solid #e9ecef;
+  background: transparent;
+  box-shadow: 0px 0.1rem 0.2rem 0 #0000001a, 0px 0.1rem 0.1rem 0px #00000008;
+}
+
+.TwoInputField {
+  display: flex;
+}
+
+.img-50 {
+  width: 5rem;
+  height: 5rem;
+}
+
+.cFrm {
+  border: 0.1rem solid #e9ecef;
+  padding: 4rem 4rem;
+  margin-top: 3rem;
+  background-color: #fff;
+}
+
+.Create_another_box {
+  display: flex;
+  align-items: center;
+}
+
+.Create_another_box span {
+  font-size: 13px;
+  padding-left: 5px;
+  margin-right: 15px;
+}
+
+.Require {
+  color: red;
+}
+
+.Form__control {
+  width: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+}
+.Form__control input + select + label {
+  width: 80%;
+}
+.Form__control input {
+  margin-bottom: 0px !important;
+}
+.Form__control label {
+  width: 20%;
+}
+
+.TwoInputField {
+  margin-bottom: 2rem;
+}
+
+.Single_textare label {
+  width: 8%;
+}
+
+.Single_textare textarea {
+  max-width: 40%;
+}
+
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__month-container {
+  width: 20rem !important;
+}
+
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  width: 2.2rem;
+  font-size: 1.2rem;
+}
+
+.react-datepicker__triangle {
+  left: 19rem;
+}
+
+.css-y73yff {
+  width: 100%;
+  margin-bottom: -2.5rem;
+}
+
+/*# sourceMappingURL=Medicine.css.map */

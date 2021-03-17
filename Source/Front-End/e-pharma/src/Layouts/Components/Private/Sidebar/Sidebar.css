@@ -1,0 +1,96 @@
+/*
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@font-face {
+  font-family: "mulish-Bold";
+  src: url("../Fonts/Mulish-Bold.ttf");
+}
+@font-face {
+  font-family: "mulish-Semibold";
+  src: url("../Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+  font-family: "mulish-Medium";
+  src: url("../Fonts/Mulish-Medium.ttf");
+}
+@font-face {
+  font-family: "mulish-Regular";
+  src: url("../Fonts/Mulish-Regular.ttf");
+}
+.sidebar-wrapper {
+  width: 21.5rem;
+  background: #fff;
+  position: fixed;
+  top: 7.3rem;
+  bottom: 0;
+  z-index: 1000;
+  overflow: auto;
+  border-right: 1px solid #e0e0e0;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+}
+.sidebar-wrapper__mainNavbar {
+  padding: 2rem 0;
+}
+.sidebar-wrapper__mainNavbar > ul > li {
+  padding-right: 2rem;
+  margin-bottom: 0.5rem;
+  cursor: default !important;
+}
+.sidebar-wrapper__mainNavbar > ul > li:hover > a {
+  background-color: #e7f9f6;
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+}
+.sidebar-wrapper__mainNavbar > ul > li.active > a {
+  border-top-right-radius: 5rem;
+  border-bottom-right-radius: 5rem;
+  background-color: #17c3a5;
+  color: #fff;
+}
+.sidebar-wrapper__mainNavbar > ul > li.active > .subMenu {
+  padding-left: 3.6rem;
+  margin-top: 1rem;
+}
+.sidebar-wrapper__mainNavbar > ul > li.active > .subMenu li {
+  margin-bottom: 0;
+}
+.sidebar-wrapper__mainNavbar > ul > li.active > .subMenu li.activeLink a {
+  color: #17c3a5;
+}
+.sidebar-wrapper__mainNavbar > ul > li.active > .subMenu li a {
+  font-size: 1.4rem;
+  padding: 6px 0px;
+  display: block;
+  color: #111111;
+  cursor: default !important;
+}
+.sidebar-wrapper__mainNavbar > ul > li.active > .subMenu li:hover a {
+  color: #17c3a5;
+}
+.sidebar-wrapper__mainNavbar > ul > li > a {
+  color: #111111;
+  font-size: 1.6rem;
+  padding: 1.5rem 0 1.5rem 1.5rem;
+  display: flex;
+  align-items: center;
+  line-height: 0;
+}
+.sidebar-wrapper__icon {
+  padding-right: 1.5rem;
+}
+.sidebar-wrapper__icon svg {
+  font-size: 2rem;
+}
+.sidebar-wrapper__menu-text {
+  font-family: "mulish-Regular", sans-serif;
+}
+
+/*# sourceMappingURL=Sidebar.css.map */

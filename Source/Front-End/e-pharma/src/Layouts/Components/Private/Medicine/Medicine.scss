@@ -1,0 +1,53 @@
+/*!
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@import "../../../../Static/Scss/common.scss";
+.Form__control {
+  width: 100%;
+  display: flex;
+  font-size: 1.6rem;
+  margin-right: 2rem;
+  input + select + label {
+    width: 80%;
+  }
+  input {
+    margin-bottom: 0px !important;
+  }
+  label {
+    width: 20%;
+  }
+}
+.TwoInputField {
+  margin-bottom: 2rem;
+}
+.Single_textare label {
+  width: 8%;
+}
+.Single_textare textarea {
+  max-width: 40%;
+}
+.react-datepicker-wrapper {
+  width: 100%;
+}
+.react-datepicker__month-container {
+  width: 20rem !important;
+}
+.react-datepicker__day-name,
+.react-datepicker__day,
+.react-datepicker__time-name {
+  width: 2.2rem;
+  font-size: 1.2rem;
+}
+.react-datepicker__triangle {
+  left: 19rem;
+}
+.css-y73yff {
+  width: 100%;
+  margin-bottom: -2.5rem;
+}

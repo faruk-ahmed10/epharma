@@ -1,0 +1,19 @@
+/*!
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@import "../../../../Static/Scss/common";
+@import "../../../../Static/Scss/variables.scss";
+
+.Customer__wrapper {
+  background-color: $white;
+  border-radius: 1rem;
+  border: 0.1rem solid $primary;
+  padding: 3rem 2.5rem;
+  margin-top: 2.5rem;
+}

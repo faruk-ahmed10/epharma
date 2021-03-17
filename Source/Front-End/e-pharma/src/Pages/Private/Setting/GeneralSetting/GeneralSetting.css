@@ -1,0 +1,43 @@
+/*
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+.SingleCard {
+  padding: 20px 0px;
+  background: #fff;
+  margin: 30px 0;
+}
+
+.SingleCard__header {
+  font-size: 24px;
+  padding-bottom: 5px;
+  padding-left: 20px;
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 20px;
+  /* background: #f8f9fa; */
+}
+
+.SingleCard__body {
+  padding: 0px 18px;
+}
+
+.TwoInputField {
+  display: flex;
+  font-size: 16px;
+}
+
+.input_wrapper {
+  width: 100%;
+  margin-right: 25px;
+}
+
+.TwoInputField .input_wrapper:last-child {
+  margin-right: 0px;
+}
+
+/*# sourceMappingURL=GeneralSetting.css.map */

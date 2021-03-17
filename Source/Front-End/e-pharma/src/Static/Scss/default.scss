@@ -1,0 +1,78 @@
+/*!
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@import "variables.scss";
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+}
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit;
+}
+body {
+  line-height: 1.6;
+  background: $bodyColor;
+  font-family: $mulishRegular;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 0;
+  margin: 0px;
+}
+a {
+  text-decoration: none;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  &:hover,
+  &:focus,
+  &:active,
+  button:focus {
+    text-decoration: none;
+    border: none;
+    outline: 0;
+    color: $textColor;
+  }
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ol {
+  margin-bottom: 0;
+}
+// select:focus,
+// select:active {
+//   -webkit-box-shadow: none;
+//   box-shadow: none;
+//   border: 0;
+//   outline: 0;
+// }
+input:focus,
+textarea:focus,
+select:focus,
+button:focus {
+  outline: none;
+}
+button {
+  cursor: pointer;
+  padding: 0;
+}

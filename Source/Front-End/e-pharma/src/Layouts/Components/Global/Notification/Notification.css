@@ -1,0 +1,73 @@
+/*
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@font-face {
+  font-family: "mulish-Bold";
+  src: url("../Fonts/Mulish-Bold.ttf");
+}
+@font-face {
+  font-family: "mulish-Semibold";
+  src: url("../Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+  font-family: "mulish-Medium";
+  src: url("../Fonts/Mulish-Medium.ttf");
+}
+@font-face {
+  font-family: "mulish-Regular";
+  src: url("../Fonts/Mulish-Regular.ttf");
+}
+.notification {
+  background: #f3f4f6;
+  min-width: 20rem;
+  max-width: 35rem;
+  border-radius: 5rem;
+  padding: 0.5rem 0;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  z-index: 999999;
+  box-shadow: 0 0.1rem 0.2rem 0px #0000005e;
+}
+.notification__bg--success {
+  color: #00ac51;
+}
+.notification__bg--danger {
+  color: #f54f4e;
+}
+.notification svg {
+  font-size: 3rem;
+}
+.notification__info {
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: start;
+}
+.notification__info__left--icon {
+  height: 4.5rem;
+  width: 4.5rem;
+  text-align: center;
+  line-height: 4.5rem;
+  border-radius: 4.5rem;
+  color: #fff;
+}
+.notification__info__left--icon.icon__danger {
+  background-color: #f54f4e;
+}
+.notification__info__left--icon.icon__success {
+  background-color: #00ac51;
+}
+.notification__info__middle--message {
+  font-size: 1.8rem;
+  font-weight: 600;
+  padding: 0px 1rem;
+}
+
+/*# sourceMappingURL=Notification.css.map */

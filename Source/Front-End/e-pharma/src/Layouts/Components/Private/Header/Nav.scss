@@ -1,0 +1,54 @@
+/*!
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@import "../../../../Static/Scss/fonts.scss";
+@import "../../../../Static/Scss/variables.scss";
+
+
+.nav {
+    ul{
+        li {
+            display: inline-block;
+            padding: 0rem 3.0rem;
+        }
+    }
+    & a {
+        color: $textColor;
+        font-family: $mulishMedium;
+        font-size: 1.6rem;
+        position: relative;
+
+        &:after {
+            content: "";
+            position: absolute;
+            height: 0.5rem;
+            background: $primary;
+            top: -3.3rem;
+            left: 0;
+            width: 100%;
+            // transition: 3.5s;
+            opacity: 0;
+        }
+
+        &:hover{
+            color: $primary;
+            // padding-top: 5px;
+
+            &:after {
+                width: 100%;
+                opacity: 1;
+                transition: 0.7s;
+            }
+        }
+
+        
+    }
+
+}
+

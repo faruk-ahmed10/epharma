@@ -1,0 +1,33 @@
+/*!
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@import "../../../../Static/Scss/variables";
+
+.breadcrumbs {
+  background: $white;
+  padding: 2rem 2.5rem;
+  &__info {
+    display: flex;
+    align-items: center;
+  }
+  &__left {
+    padding-right: 2.5rem;
+  }
+  &__right {
+    a {
+      font-size: 2.1rem;
+      color: $primary;
+    }
+  }
+  &__active {
+    display: block;
+    font-size: 1.4rem;
+    margin-top: -1rem;
+  }
+}

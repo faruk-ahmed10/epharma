@@ -1,0 +1,75 @@
+/*
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+.notification-area-container {
+  display: flex;
+  padding-right: 4rem;
+}
+.notification-area-container a {
+  margin-left: 1.5rem;
+}
+
+.setting-btn {
+  border: 0;
+  background: transparent;
+  margin-left: 15px;
+  position: relative;
+}
+
+.SettingDropdown {
+  position: absolute;
+  border-radius: 5px;
+  background-color: white;
+  box-shadow: 0px 5px 53.35px 1.65px rgba(0, 0, 0, 0.1);
+  right: 55px;
+  top: 80px;
+  width: 150px;
+  height: 172px;
+  padding: 10px 15px;
+}
+.SettingDropdown li {
+  padding-bottom: 10px;
+  cursor: pointer;
+}
+.SettingDropdown li img {
+  padding-right: 10px;
+}
+.SettingDropdown li:hover {
+  color: #2dc9ad;
+}
+
+.logout {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #17c3a5;
+  line-height: 1.2;
+}
+
+.setting {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #646464;
+  line-height: 1.2;
+}
+
+.email {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #646464;
+  line-height: 1.2;
+}
+
+.my_profile {
+  font-size: 14px;
+  font-family: "Raleway";
+  color: #646464;
+  line-height: 1.2;
+}
+
+/*# sourceMappingURL=Notification.css.map */

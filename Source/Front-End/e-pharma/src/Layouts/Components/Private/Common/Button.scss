@@ -1,0 +1,49 @@
+/*!
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@import "../../../../Static/Scss/variables";
+@import "../../../../Static/Scss/common";
+
+.cbtn {
+  background: red;
+  font-size: 1.6rem;
+  color: $white;
+  border-radius: 0.5rem;
+  display: inline-block;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.3rem 0.2rem #0000001f;
+  &--lg {
+    padding: 1rem 1.5rem;
+  }
+  &--sm {
+    padding: 0.3rem 0.8rem;
+  }
+  &--primary {
+    background-color: $primary;
+  }
+  &--green {
+    background-color: #17c3a5;
+  }
+  &--edit {
+    background-color: #3150ec;
+  }
+  &--warning {
+    background-color: #f0ad4e;
+  }
+  &--danger {
+    background-color: #f54f4e;
+  }
+  &--info {
+    background-color: #00bcff;
+  }
+  &--icon {
+    font-weight: 600;
+    padding-right: 0.8rem;
+  }
+}

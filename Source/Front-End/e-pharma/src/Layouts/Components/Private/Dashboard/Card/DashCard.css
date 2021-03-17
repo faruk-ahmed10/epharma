@@ -1,0 +1,85 @@
+/*
+ * Copyright (c) Mohammed Nayeem 2021 - React Clock Work <http://reactwithphp.com>
+ * Team: eDorpon React Development Team <http://edorpon.com>
+ * @Web <http://react-programmers.com>
+ * @Email <chiefnayeem@gmail.com>
+ *
+ * @package ePharama
+ */
+
+@font-face {
+  font-family: "mulish-Bold";
+  src: url("../Fonts/Mulish-Bold.ttf");
+}
+@font-face {
+  font-family: "mulish-Semibold";
+  src: url("../Fonts/Mulish-SemiBold.ttf");
+}
+@font-face {
+  font-family: "mulish-Medium";
+  src: url("../Fonts/Mulish-Medium.ttf");
+}
+@font-face {
+  font-family: "mulish-Regular";
+  src: url("../Fonts/Mulish-Regular.ttf");
+}
+.card-area {
+  border-radius: 1rem;
+  background-color: #fff;
+  box-shadow: 0px 20px 40px 10px rgba(0, 0, 0, 0.04);
+  width: 100%;
+  height: 16.7rem;
+  position: relative;
+}
+.card-area .abs {
+  position: absolute;
+  background: #f3fff9;
+  height: 12rem;
+  width: 6rem;
+  border-bottom-right-radius: 12rem;
+  border-top-right-radius: 12rem;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+}
+.card-area .abs img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  padding-left: 15px;
+  height: 29px;
+}
+.card-area:hover {
+  cursor: pointer;
+}
+.card-area:hover .abs {
+  height: 100%;
+  width: 100%;
+  border-radius: 0;
+  transition: 0.5s;
+}
+
+.card-text-content {
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  transform: translate(75%, -50%);
+}
+
+.card-text-content h3 {
+  font-size: 4.5rem;
+  font-family: "mulish-Bold", sans-serif;
+  color: #00ac51;
+}
+.card-text-content span {
+  font-size: 1.6rem;
+  font-family: "mulish-Bold", sans-serif;
+  color: #111111;
+}
+
+.backRed {
+  background: red;
+}
+
+/*# sourceMappingURL=DashCard.css.map */
